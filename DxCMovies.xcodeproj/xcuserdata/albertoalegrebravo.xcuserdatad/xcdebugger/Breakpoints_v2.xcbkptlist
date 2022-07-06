@@ -7,51 +7,50 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7C91D27C-662E-4979-ADAF-2867489081AF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DxCMovies/Features/MovieList/MoviesListTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9D6D1D15-2F2E-48D7-8FF1-262CA135F2B4"
-            shouldBeEnabled = "Yes"
+            uuid = "7F11BF67-20EF-4D42-ABE6-605F2BDFEF88"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DxCMovies/MoviesModelLogic.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "loadMovies(page:language:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9D6D1D15-2F2E-48D7-8FF1-262CA135F2B4 - 61d05f75ea038cc3"
+                  uuid = "7F11BF67-20EF-4D42-ABE6-605F2BDFEF88 - f5f32def38567b13"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) suspend resume partial function for DxCMovies.MoviesModelLogic.loadMovies(page: Swift.Int, language: Swift.String) async -&gt; ()"
+                  symbolName = "DxCMovies.MoviesModelLogic.loadMovies(page: Swift.Int, language: Swift.String) async -&gt; ()"
                   moduleName = "DxCMovies"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/albertoalegrebravo/Desktop/DxCMovies/DxCMovies/MoviesModelLogic.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "297">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "230">
                </Location>
                <Location
-                  uuid = "9D6D1D15-2F2E-48D7-8FF1-262CA135F2B4 - 61d05f75ea038cc3"
+                  uuid = "7F11BF67-20EF-4D42-ABE6-605F2BDFEF88 - c7cc2a96459c39be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for DxCMovies.MoviesModelLogic.loadMovies(page: Swift.Int, language: Swift.String) async -&gt; ()"
+                  moduleName = "DxCMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoalegrebravo/Desktop/DxCMovies/DxCMovies/MoviesModelLogic.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "7F11BF67-20EF-4D42-ABE6-605F2BDFEF88 - 61d05f75ea038bb4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,9 +60,24 @@
                   urlString = "file:///Users/albertoalegrebravo/Desktop/DxCMovies/DxCMovies/MoviesModelLogic.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "601">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "214">
+               </Location>
+               <Location
+                  uuid = "7F11BF67-20EF-4D42-ABE6-605F2BDFEF88 - 1c9ac89d8ba265b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for DxCMovies.MoviesModelLogic.loadMovies(page: Swift.Int, language: Swift.String) async -&gt; ()"
+                  moduleName = "DxCMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoalegrebravo/Desktop/DxCMovies/DxCMovies/MoviesModelLogic.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "241">
                </Location>
             </Locations>
          </BreakpointContent>

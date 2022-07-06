@@ -25,16 +25,16 @@ final class MoviesModelLogic {
             return movies
         } else {
             return movies.filter {
-                $0.title.lowercased().hasPrefix(search.lowercased())
+                return $0.title.lowercased().contains(search.lowercased())
             }
         }
     }
     
-    func loadMovies(page: Int, language: String) async {
+    func loadMovies(page:Int, language:String) async {
         do {
             moviesResponse = try await getMovies(page: page, language: language)
             if let movies = moviesResponse?.results {
-                self.movies = movies
+                self.movies.append(contentsOf: movies)
             }
         } catch LoadErrors.general(let error) {
             print("Error general en la carga \(error)")

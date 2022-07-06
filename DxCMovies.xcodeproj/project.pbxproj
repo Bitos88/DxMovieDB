@@ -105,7 +105,6 @@
 			children = (
 				1AD26977286F019E0094D865 /* MoviesListTableViewController.swift */,
 				1A80661828720BC6008F656F /* MoviesListTableViewCell.swift */,
-				1AF033182873653700E90343 /* MovieDetailViewController.swift */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -113,6 +112,7 @@
 		1AD26972286F01170094D865 /* DetailList */ = {
 			isa = PBXGroup;
 			children = (
+				1AF033182873653700E90343 /* MovieDetailViewController.swift */,
 			);
 			path = DetailList;
 			sourceTree = "<group>";

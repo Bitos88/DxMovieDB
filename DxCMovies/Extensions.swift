@@ -11,14 +11,10 @@ import UIKit
 
 extension URL {
     static let baseMoviesURL = "https://api.themoviedb.org/3/movie/popular"
-    
     static let apiKey = "631e5fb6f2fb89b07fc57d0d7120aba8"
-        
     static func buildMovieURL(page: Int, language: String) -> URL {
-        URL(string: "\(baseMoviesURL)?api_key=\(apiKey)&language=\(language)&\(page)")!
+        URL(string: "\(baseMoviesURL)?api_key=\(apiKey)&language=\(language)&page=\(page)")!
     }
-
-
 }
 
 extension UIImageView {
@@ -35,13 +31,5 @@ extension UIImageView {
                 }
             }
         }
-    }
-}
-
-
-
-extension UIImageView {
-    func setPlaceHolder(placeHolderImg: String){
-        self.image = UIImage(named: placeHolderImg)
     }
 }

@@ -12,13 +12,10 @@ class MoviesListTableViewCell: UITableViewCell {
     @IBOutlet weak var cover: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var overview: UILabel!
-    
     @IBOutlet weak var voteAverage: UILabel!
     
-
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
         cover.layer.cornerRadius = 10
         cover.layer.shadowRadius = 5
         cover.layer.shadowOpacity = 1
@@ -26,8 +23,6 @@ class MoviesListTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     override func prepareForReuse() {
@@ -36,5 +31,4 @@ class MoviesListTableViewCell: UITableViewCell {
         overview.text = nil
         voteAverage.text = nil
     }
-
 }
