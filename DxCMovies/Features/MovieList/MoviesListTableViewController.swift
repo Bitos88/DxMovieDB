@@ -43,7 +43,7 @@ final class MoviesListTableViewController: UITableViewController {
         
         cell.title.text = movie.title
         cell.overview.text = movie.overview
-        cell.voteAverage.text = "V.A: \(movie.voteAverage)"
+        cell.voteAverage.text = "Score: \(movie.voteAverage)"
         cell.cover.load(urlString: "https://image.tmdb.org/t/p/w500\(movie.posterPath ?? "")")
         
         return cell
